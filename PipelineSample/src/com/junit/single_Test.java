@@ -9,7 +9,7 @@ import junit.framework.Assert;
 public class single_Test {
 
 	
-
+	
 @Test
 public void test_junit() {
 	Multi s1 = new Multi(5,4);
@@ -25,7 +25,7 @@ public void test_junit2() {
 @Test
 public void test_junit3(){
 	Multi obj = new Multi(2,3);
-	Assert.assertEquals(6, obj.multiplication());
+	Assert.assertEquals(7, obj.multiplication());
 }
 }
 
