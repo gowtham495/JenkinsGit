@@ -51,7 +51,7 @@
 		-->
 		<cobertura-instrument todir="${instrumented.dir}">
 			<!--
-				The following line causes instrument to ignore any
+				The  line causes instrument to ignore any
 				source line containing a reference to slf4j/logback, for the
 				purposes of coverage reporting.
 			-->
